@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Instant App Prototype</string>
+
+    <string name="first_title">First</string>
+    <string name="first_type_instant_app">Instant App</string>
+    <string name="first_type_full_app">Full App</string>
+
+    <string name="first_action_install">Install</string>
+    <string name="first_button_details">Details</string>
+
+    <string name="second_title">Second</string>
+
+</resources>

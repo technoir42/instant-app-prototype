@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sch.instantapp.feature1">
+
+    <application>
+        <activity
+            android:name="com.sch.instantapp.ui.SecondActivity"
+            android:label="@string/second_title"
+            android:parentActivityName="com.sch.instantapp.ui.FirstActivity">
+            <intent-filter android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="sch.com"
+                    android:pathPattern="/second"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
